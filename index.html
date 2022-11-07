@@ -11,12 +11,13 @@
     <body>
         <!-- navbar -->
         <section id="header">
-            <a href="#"><i class="fa-solid fa-crow"></i></a>
+            <a href="#" id="brand-name">MAGIC RAVENS</i></a>
 
             <div>
                 <ul id="navbar">
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
+                    <li><a href="login.html">Login</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="cart.html"><i class="fa-solid fa-shopping-cart"></i></a></li>
@@ -25,7 +26,26 @@
         </section>
 
         <section id="banner">
-            
+            <section id="text-container">
+                <h2>Find something magical...</h2>
+                <h4>Browse our collection</h4>
+                <button>Shop now</button>
+            </section>
+        </section>
+
+        <section id="featured">
+            <h2>Featured Products</h2>
+            <h4>Our most popular items</h4>
+            <div class="product-container">
+                <div class="product">
+                    <img src="images/products/wraven.jpg" alt="wood raven">
+                    <div class="description">
+                        <a href="#">Wood Raven on Base</a>
+                        <p>$40</p>
+                    </div>
+                    <a href="#" id="add-cart"><i class="fa-solid fa-cart-plus"></i></a>
+                </div>
+            </div>
         </section>
 
         <script src="script.js"></script>
